@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #333232;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
